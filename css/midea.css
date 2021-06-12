@@ -1,0 +1,1462 @@
+@media(min-width:1201px) and (max-width:1399px) {
+
+    /*========Accordion Part Css==========*/
+    #accordionExample .accordion-item {
+        margin-left: 5% !important;
+    }
+
+    #acordion button h2 {
+        margin-left: 8px !important;
+    }
+
+    #accordionExample .accordion-collapse p {
+        width: 91%;
+    }
+
+    #accordionExample .accordion-collapse .mas {
+        width: 91% !important;
+    }
+
+    #acordion button h2 i {
+        margin-left: 57px !important;
+    }
+
+    .box {
+        width: 546px;
+        padding-bottom: 20px;
+    }
+
+    .box .right h2 {
+        font-size: 17px;
+        margin-left: 22px;
+        width: 443px;
+    }
+
+    .box .right h2 span {
+        margin-left: 124px;
+    }
+
+    /*========Blog Part Css==========*/
+    .paragaraph h3 a {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    #blog .date {
+        padding-left: 0px !important;
+    }
+
+    .paragaraph p {
+        padding-top: 14px;
+        padding-bottom: 12px;
+    }
+
+    .read::after {
+        bottom: -2px;
+    }
+
+    /*========Theme Part Css==========*/
+    .mone {
+        padding-bottom: 20px;
+    }
+
+    .item .left i {
+        height: 90px;
+        width: 90px;
+        line-height: 90px;
+    }
+
+    /*========footer Part Css==========*/
+    #footer dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+@media(min-width:1199px) and (max-width:1200px) {
+    .mar {
+        padding-top: 55px;
+    }
+
+    /*========Nav Bar Part Css==========*/
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 10px;
+    }
+
+    /*========Footer Part Css==========*/
+    .imoverlay .icon i {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 12px;
+    }
+
+    /*========Protfolio Part Css==========*/
+    .imoverlay h6 {
+        font-size: 14px;
+        padding-top: 13px;
+        padding-left: 12px;
+    }
+
+    .imoverlay p {
+        font-size: 12px;
+        padding-left: 13px;
+    }
+
+    .imoverlay p::after {
+        bottom: -14px;
+    }
+
+    .imoverlay .icon {
+        margin-top: 35px;
+    }
+
+    /*========Accodion Part Css==========*/
+    #acordion button h2 {
+        font-size: 14px;
+        color: #363636;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        margin-left: 7px;
+    }
+
+    #acordion button h2 span {
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+        color: #cccccc;
+        padding-left: 35px;
+    }
+
+    #accordionExample .accordion-collapse p {
+        width: 90%;
+        font-size: 12px !important;
+        margin-left: 5%;
+    }
+
+    #accordionExample .accordion-collapse .mas {
+        width: 90% !important;
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    #accordionExample .accordion-item {
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    #acordion button h2 i {
+        font-size: 20px;
+        width: 45px;
+        height: 45px;
+        background: #363636;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        margin-left: 60px;
+        margin-top: 7px;
+    }
+
+    .box .left {
+        margin-top: 15px;
+        margin-left: 15px;
+        padding-bottom: 14px;
+    }
+
+    .box .right h2 {
+        font-size: 12px !important;
+        margin-left: 14px !important;
+        width: 400px;
+    }
+
+    .box .right h2 span {
+        font-size: 12px;
+        margin-left: 98px;
+    }
+
+    .box .right p {
+        font-size: 12px;
+        width: 95%;
+        margin-left: 14px;
+    }
+
+    /*========Blog Part Css==========*/
+    #blog {
+        padding-bottom: 60px;
+    }
+
+    .paragaraph .date {
+        font-size: 12px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .date {
+        padding-left: 3px;
+    }
+
+    .paragaraph h3 a {
+        font-size: 18px;
+        line-height: 19px !important;
+        width: 79%;
+    }
+
+    .paragaraph p {
+        width: 100%;
+    }
+
+    .read::after {
+        bottom: -2px;
+    }
+
+    .read:hover::after {
+        width: 215px;
+        background: #e86a60;
+    }
+
+    /*========Theme Part Css==========*/
+    #theme {
+        padding-bottom: 30px;
+    }
+
+    .mone {
+        margin-left: -18px;
+    }
+
+    .item .left i {
+        font-size: 30px;
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        border: 3px solid #fafafa;
+    }
+
+    .item .right h4 {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    .item .right p {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    /*========Footer Part Css==========*/
+    #footer h4 {
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        padding-top: 22px;
+        padding-bottom: 20px;
+    }
+
+    #footer form input {
+        width: 208px;
+    }
+
+    button {
+        right: 25px;
+    }
+
+    .lorem {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #636363;
+        padding-top: 0px !important;
+        width: 100%;
+    }
+
+    .loggo p {
+        color: #464646;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        text-transform: uppercase;
+        width: 130px;
+        padding-top: 15px;
+    }
+
+    .loreemm {
+        padding-bottom: 20px;
+    }
+
+    .newsitem .right h6 {
+        font-size: 13px;
+        padding-left: 20px;
+    }
+
+    #footer .date {
+        padding-left: 20px;
+    }
+
+    .newsitem::after {
+        width: 220px;
+    }
+
+    .twitteritem::after {
+        width: 90%;
+        bottom: -18px;
+        left: 18px;
+    }
+
+    #footer h3 {
+        padding-top: 40px;
+    }
+
+    .loggo {
+        padding-top: 45px;
+    }
+
+    .fotteritem {
+        text-align: center;
+    }
+}
+
+
+@media(min-width:992px) and (max-width:1199px) {
+    .mar {
+        padding-top: 55px;
+    }
+
+    /*========Nav Bar Part Css==========*/
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 10px;
+    }
+
+    /*========Footer Part Css==========*/
+    .imoverlay .icon i {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 12px;
+    }
+
+    /*========Protfolio Part Css==========*/
+    .imoverlay h6 {
+        font-size: 14px;
+        padding-top: 13px;
+        padding-left: 12px;
+    }
+
+    .imoverlay p {
+        font-size: 12px;
+        padding-left: 13px;
+    }
+
+    .imoverlay p::after {
+        bottom: -14px;
+    }
+
+    .imoverlay .icon {
+        margin-top: 35px;
+    }
+
+    /*========Accodion Part Css==========*/
+    #acordion button h2 {
+        font-size: 14px;
+        color: #363636;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        margin-left: 7px;
+    }
+
+    #acordion button h2 span {
+        font-size: 11px;
+        font-family: 'Roboto', sans-serif;
+        color: #cccccc;
+        padding-left: 35px;
+    }
+
+    #accordionExample .accordion-collapse p {
+        width: 90%;
+        font-size: 12px !important;
+        margin-left: 5%;
+    }
+
+    #accordionExample .accordion-collapse .mas {
+        width: 90% !important;
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    #accordionExample .accordion-item {
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    #acordion button h2 i {
+        font-size: 20px;
+        width: 45px;
+        height: 45px;
+        background: #363636;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        margin-left: 60px;
+        margin-top: 7px;
+    }
+
+    .box .left {
+        margin-top: 15px;
+        margin-left: 15px;
+        padding-bottom: 14px;
+    }
+
+    .box .right h2 {
+        font-size: 12px !important;
+        margin-left: 14px !important;
+        width: 400px;
+    }
+
+    .box .right h2 span {
+        font-size: 12px;
+        margin-left: 98px;
+    }
+
+    .box .right p {
+        font-size: 12px;
+        width: 95%;
+        margin-left: 14px;
+    }
+
+    /*========Blog Part Css==========*/
+    #blog {
+        padding-bottom: 60px;
+    }
+
+    .paragaraph .date {
+        font-size: 12px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .date {
+        padding-left: 3px;
+    }
+
+    .paragaraph h3 a {
+        font-size: 18px;
+        line-height: 19px !important;
+        width: 79%;
+    }
+
+    .paragaraph p {
+        width: 100%;
+    }
+
+    .read::after {
+        bottom: -2px;
+    }
+
+    .read:hover::after {
+        width: 215px;
+        background: #e86a60;
+    }
+
+    /*========Theme Part Css==========*/
+    #theme {
+        padding-bottom: 30px;
+    }
+
+    .mone {
+        margin-left: -18px;
+    }
+
+    .item .left i {
+        font-size: 30px;
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        border: 3px solid #fafafa;
+    }
+
+    .item .right h4 {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    .item .right p {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    /*========Footer Part Css==========*/
+    #footer h4 {
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        padding-top: 22px;
+        padding-bottom: 20px;
+    }
+
+    #footer form input {
+        width: 208px;
+    }
+
+    button {
+        right: 25px;
+    }
+
+    .lorem {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #636363;
+        padding-top: 0px !important;
+        width: 100%;
+    }
+
+    .loggo p {
+        color: #464646;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        text-transform: uppercase;
+        width: 130px;
+        padding-top: 15px;
+    }
+
+    .loreemm {
+        padding-bottom: 20px;
+    }
+
+    .newsitem .right h6 {
+        font-size: 13px;
+        padding-left: 20px;
+    }
+
+    #footer .date {
+        padding-left: 20px;
+    }
+
+    .newsitem::after {
+        width: 220px;
+    }
+
+    .twitteritem::after {
+        width: 90%;
+        bottom: -18px;
+        left: 18px;
+    }
+
+    #footer h3 {
+        padding-top: 40px;
+    }
+
+    .loggo {
+        padding-top: 45px;
+    }
+
+    .fotteritem {
+        text-align: center;
+    }
+
+    /*========Footer Part Css==========*/
+    /*========Footer Part Css==========*/
+    /*========Footer Part Css==========*/
+    /*========Footer Part Css==========*/
+    /*========Footer Part Css==========*/
+}
+
+@media(min-width:850px) and (max-width:991px) {
+
+    /*========Footer Part Css==========*/
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .mar {
+        padding-top: 45px;
+        padding-bottom: 20px;
+    }
+
+    /*========Top Part Css==========*/
+    #top .col-md-4 {
+        margin-bottom: -28px;
+    }
+
+    /*========Nav Bar Part Css==========*/
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 11px;
+        margin-left: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu .col-md-12 {
+        width: 100%;
+        text-align: center;
+        margin-top: -35px;
+    }
+
+    /*========Banner Bar Part Css==========*/
+    .content {
+        padding-top: 250px;
+        padding-bottom: 230px;
+        margin-left: -105px;
+    }
+
+    /*========Business Part Css==========*/
+    #business .text {
+        margin-left: -125px;
+    }
+
+    /*========Protfolio Part Css==========*/
+
+    .load {
+        margin-bottom: 50px;
+    }
+
+    /*========Accordion Part Css==========*/
+    #acordion button h2 i {
+        font-size: 20px;
+        width: 51px;
+        height: 51px;
+        background: #363636;
+        color: #fff;
+        text-align: center;
+        line-height: 45px;
+        margin-left: 202px;
+        margin-top: -1px;
+        margin-bottom: -9px;
+    }
+
+    #accordionExample .accordion-item {
+        padding-bottom: 8px;
+        border: none;
+        margin-left: 7%;
+        width: 100%;
+    }
+
+    .box {
+        margin-top: 40px;
+    }
+
+    .box .left {
+        height: 130px;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .box .right {
+        padding-bottom: 10px;
+        padding-top: 25px;
+    }
+
+    /*========Blog Part Css==========*/
+    #blog {
+        padding-bottom: 70px;
+    }
+
+    #blog .img-fluid {
+        max-width: 100%;
+        height: 255px !important;
+    }
+
+    .paragaraph h3 a {
+        font-size: 14px;
+        line-height: 18px !important;
+        width: 90%;
+    }
+
+    .paragaraph .date {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #cccccc;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .date {
+        padding-left: 0px;
+        padding-top: 0px !important;
+        padding-bottom: 14px;
+    }
+
+    .paragaraph p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .read::after {
+        bottom: -4px;
+    }
+
+    .read:hover:after {
+        width: 170px !important;
+    }
+
+    /*========Nav Bar Part Css==========*/
+    .mone {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .item {
+        margin-bottom: 10px;
+    }
+
+    /*========Client Part Css==========*/
+    .all .one {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /*========Footer Part Css==========*/
+    .loggo p {
+        padding-top: 30px;
+    }
+
+    .lorem {
+        padding-top: 15px;
+    }
+
+    #footer h3 {
+        padding-top: 40px;
+    }
+
+    .loreemm {
+        padding-bottom: 0px;
+    }
+
+    #footer button {
+        position: absolute;
+        right: 25%;
+        top: 5px;
+        background: transparent;
+        border: none;
+    }
+
+    #footer dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    element {
+        text-align: center;
+    }
+
+    /*========Nav Bar Part Css==========*/
+    /*========Nav Bar Part Css==========*/
+}
+
+@media(min-width:576px) and (max-width:767px) {
+
+
+    .mar {
+        padding-top: 50px !important;
+        padding-bottom: 40px !important;
+    }
+
+    /*========Top Part Css==========*/
+    /*
+    element {
+	text-align: center;
+}
+*/
+    #navbarSupportedContent ul {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        background: #ddd;
+    }
+
+    .gmail p {
+        width: 153px;
+        margin: 0 auto;
+    }
+
+    #top .icon i {
+        font-size: 10px;
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+    }
+
+    #top .col-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: -14px;
+    }
+
+    #top .web {
+        margin-bottom: -12px !important;
+        margin-top: 10px !important;
+    }
+
+    #top .mobile {
+        margin-bottom: -12px !important;
+        margin-top: 18px !important;
+    }
+
+    #top .webb {
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    /*========NabBar Css==========*/
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #menu .col-12 {
+        text-align: center;
+        margin-top: -27px;
+    }
+
+    .navbar-brand img {
+        vertical-align: middle;
+        width: 60px;
+        height: 40px;
+    }
+
+    .navbar-toggler i {
+        margin-top: 10px;
+    }
+
+    .navbar-light .nav-link::after {
+        display: none;
+    }
+
+    /*========Banner Css==========*/
+    .content {
+        padding-top: 200px;
+        padding-bottom: 160px;
+        margin-left: -15%;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .content h2 {
+        font-size: 21px;
+    }
+
+    .content p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 300px;
+    }
+
+    .butto {
+        padding: 10px 8px;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    /*========Business Css==========*/
+    #business .text {
+        margin-left: -15%;
+    }
+
+    /*========Brand Css==========*/
+    #brand {
+        padding-top: 80px;
+        padding-bottom: 30px !important;
+    }
+
+    /*========Accordion Css==========*/
+    #accordionExample .accordion-item {
+        margin-left: 10%;
+        width: 100%;
+    }
+
+    #acordion button h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #acordion button h2 span {
+        padding-left: 100px;
+    }
+
+    #acordion button h2 i {
+        display: none;
+    }
+
+    #accordionExample .accordion-collapse p {
+        width: 90%;
+    }
+
+    #accordionExample .accordion-collapse .mas {
+        width: 90% !important;
+    }
+
+    .box {
+        margin-top: 40px;
+    }
+
+    .box .left {
+        height: 130px;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .box .right {
+        padding-bottom: 10px;
+        padding-top: 25px;
+    }
+
+    .box .right h2 {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+
+    .box .right h2 span {
+        margin-left: 130px;
+    }
+
+    .box .right p {
+        color: #959595;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        width: 93%;
+        margin-left: 14px;
+    }
+
+    /*========Blog Css==========*/
+    .paragaraph .date {
+        padding-bottom: 0px;
+        padding-left: 4px;
+    }
+
+    .paragaraph h3 a {
+        width: 98%;
+    }
+
+    .read::after {
+        bottom: -5px;
+    }
+
+    /*========Theme Css==========*/
+    .mone {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /*========Clients Css==========*/
+    .all .one {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*========Footer Css==========*/
+    .loggo p {
+        padding-top: 30px;
+    }
+
+    .lorem {
+        padding-top: 15px;
+    }
+
+    #footer h3 {
+        padding-top: 40px;
+    }
+
+    .loreemm {
+        padding-bottom: 0px;
+    }
+
+    #footer button {
+        position: absolute;
+        right: -2%;
+        top: 5px;
+        background: transparent;
+        border: none;
+    }
+
+    #footer dl,
+    ol,
+    ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    /*========Banner Css==========*/
+    /*========Banner Css==========*/
+
+}
+
+@media(max-width:575.98px) {
+    .our p {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .mar {
+        padding-top: 30px;
+        padding-bottom: 55px;
+    }
+
+    /*========Brand Part Css==========*/
+    #brand {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+
+    /*========Top Part Css==========*/
+    /*
+    element {
+	text-align: center;
+}
+*/
+    #navbarSupportedContent ul {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        background: #ddd;
+    }
+
+    .gmail p {
+        width: 153px;
+        margin: 0 auto;
+    }
+
+    #top .icon i {
+        font-size: 10px;
+        height: 15px;
+        width: 15px;
+        line-height: 15px;
+    }
+
+    #top .col-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-top: -14px;
+    }
+
+    #top .web {
+        margin-bottom: -12px !important;
+        margin-top: 10px !important;
+    }
+
+    #top .mobile {
+        margin-bottom: -12px !important;
+        margin-top: 18px !important;
+    }
+
+    #top .webb {
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    /*========NabBar Css==========*/
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #menu .col-12 {
+        text-align: center;
+        margin-top: -27px;
+    }
+
+    .navbar-brand img {
+        vertical-align: middle;
+        width: 60px;
+        height: 40px;
+    }
+
+    .navbar-toggler i {
+        margin-top: 10px;
+    }
+
+    .navbar-light .nav-link::after {
+        display: none;
+    }
+
+    /*========Banner Css==========*/
+    .content {
+        padding-top: 200px;
+        padding-bottom: 160px;
+        margin-left: -15%;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .content h2 {
+        font-size: 21px;
+    }
+
+    .content p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 300px;
+    }
+
+    .butto {
+        padding: 10px 8px;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    /*========Business Css==========*/
+    #business .text {
+        margin-left: -15%;
+    }
+
+    .text h4 {
+        font-size: 22px;
+    }
+
+    .text h5 {
+        font-size: 19px;
+    }
+
+    /*========Protfolio Css==========*/
+    #protfolio .load {
+        background: #363636;
+        color: #fff !important;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 10px 12px;
+        display: inline-block;
+        border-radius: 3px;
+        margin-left: 50%;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        transform: translateX(-50%);
+        font-size: 13px;
+    }
+
+    /*========Accordion Css==========*/
+    #acordion button h2 i {
+        display: none;
+    }
+
+    #accordionExample .accordion-item {
+        width: 100% !important;
+        margin-left: 18%;
+    }
+
+    #acordion button h2 {
+        font-size: 12px;
+        margin-left: 2px;
+    }
+
+    #acordion button h2 span {
+        font-size: 12px;
+        padding-left: 30px;
+        font-weight: 600;
+    }
+
+    #accordionExample .accordion-collapse p {
+        width: 87%;
+        font-size: 12px !important;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+
+    #accordionExample .accordion-collapse .mas {
+        width: 87% !important;
+        font-size: 12px;
+    }
+
+    .box .left {
+        margin-left: 0px !important;
+        margin-top: 9px;
+    }
+
+    .box .right {
+        padding-top: 14px;
+    }
+
+    .box .left .images {
+        height: 90%;
+    }
+
+    .box .right h2 {
+        font-size: 13px !important;
+        margin-left: 10px !important;
+    }
+
+    .box .right h2 span {
+        font-size: 11px !important;
+        margin-left: 7% !important;
+        font-weight: 500;
+    }
+
+    .box .right p {
+        font-size: 12px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .mainbox {
+        margin-top: 20px;
+    }
+
+    /*========Blog Css==========*/
+    #blog {
+        padding-bottom: 40px;
+    }
+
+    #blog .left {
+        width: 40%;
+    }
+
+    #blog .right {
+        width: 60%;
+    }
+
+    .paragaraph h3 a {
+        font-size: 14px;
+        font-weight: 600 !important;
+        line-height: 17px !important;
+        width: 128px;
+        margin-left: -10px;
+    }
+
+    .paragaraph p {
+        font-size: 13px;
+        width: 100%;
+        line-height: 14px;
+        margin-left: -10px;
+    }
+
+    #blog .img-fluid {
+        max-width: 100%;
+        height: 210px;
+    }
+
+    .overlaym .icon i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 6px;
+    }
+
+    .paragaraph .date {
+        font-size: 11px;
+        padding-bottom: 0px;
+        margin-left: -35px;
+    }
+
+    .read {
+        margin-left: -10px;
+    }
+
+    /*========Theme Css==========*/
+    .mone {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .item .left i {
+        font-size: 35px;
+        height: 80px;
+        width: 80px;
+        ;
+        line-height: 80px;
+        border: 3px solid #fafafa;
+    }
+
+    .item .right {
+        margin-left: 27px;
+    }
+
+    .item .right h4 {
+        font-size: 18px;
+    }
+
+    .item .right p {
+        font-size: 13px;
+    }
+
+    /*========Clients Css==========*/
+    .all .one {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .start {
+        left: 15px;
+    }
+
+    .end {
+        right: 8px;
+        line-height: 20px;
+    }
+
+    /*========Footer Css==========*/
+    .loggo p {
+        padding-top: 20px;
+    }
+
+    .lorem {
+        padding-top: 20px;
+    }
+
+    .loreemm {
+        padding-bottom: 0px;
+    }
+
+    #footer h3 {
+        padding-top: 55px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .fotteritem {
+        text-align: center !important;
+    }
+
+    .fotteritem ul li a {
+        font-size: 12px !important;
+    }
+}
+
+
+@media(min-width:550px) and (max-width:575.98px) {
+
+    .text h4 {
+        Width: 98%;
+    }
+
+    /*========Protfolio Css==========*/
+    .imoverlay h6 {
+        padding-top: 15% !important;
+    }
+
+    /*========Accordion Css==========*/
+    #accordionExample .accordion-item {
+        margin-left: 9% !important;
+    }
+
+    #acordion button h2 {
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #acordion button h2 span {
+        font-size: 12px;
+        padding-left: 60px;
+        font-weight: 600;
+    }
+
+    /*========Blog Css==========*/
+    .paragaraph {
+        margin-left: 15px;
+    }
+
+    /*========Footer Css==========*/
+    #footer button {
+        right: 53% !important;
+    }
+}
+
+@media(min-width:480px) and (max-width:575.98px) {
+
+    /*========Business Css==========*/
+    .text h4 {
+        Width: 98%;
+    }
+
+    .text h5 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /*========Protfolio Css==========*/
+    .imoverlay h6 {
+        padding-top: 15% !important;
+    }
+
+    /*========Accordion Css==========*/
+    #accordionExample .accordion-item {
+        margin-left: 12%;
+    }
+
+    #acordion button h2 {
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #acordion button h2 span {
+        font-size: 12px;
+        padding-left: 60px;
+        font-weight: 600;
+    }
+
+    /*========Footer Css==========*/
+    #footer button {
+        right: 45% !important;
+    }
+}
+
+@media(min-width:420px) and (max-width:575.98px) {
+
+    .text h4 {
+        Width: 98%;
+    }
+
+    /*========Protfolio Css==========*/
+    .imoverlay h6 {
+        padding-top: 15% !important;
+    }
+
+    /*========Accordion Css==========*/
+    #accordionExample .accordion-item {
+        margin-left: 12%;
+    }
+
+    #acordion button h2 {
+        margin-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #acordion button h2 span {
+        font-size: 12px;
+        padding-left: 60px;
+        font-weight: 600;
+    }
+
+    /*========Blog Css==========*/
+    .paragaraph {
+        margin-left: 15px;
+    }
+
+    /*========Footer Css==========*/
+    #footer button {
+        right: 36%;
+    }
+
+    .fotteritem {
+        text-align: center !important;
+    }
+
+    .fotteritem ul li a {
+        font-size: 12px !important;
+    }
+}

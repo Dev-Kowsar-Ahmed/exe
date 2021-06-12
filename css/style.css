@@ -1,0 +1,1379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.our p {
+	width: 482px;
+	margin: 0 auto;
+}
+/*============================================================
+                     Top Part Css Start
+==============================================================*/
+#top {
+    background: #363636;
+    padding-top: 7px;
+    padding-bottom: 0px;
+}
+
+#top .btn-check:focus + .btn-secondary,
+.btn-secondary:focus {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    outline: 0;
+}
+
+#dropdownMenuButton.btn {
+    width: 110px;
+    height: 35px;
+    background: none;
+}
+
+.en {
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: #898989;
+}
+
+.en i {
+    margin-right: 10px;
+    color: #898989;
+    font-size: 18px;
+}
+
+.en:hover {
+    color: #8dc63f;
+}
+
+.en:hover .color {
+    color: #8dc63f;
+}
+
+.btn-secondary {
+    border-color: transparent;
+}
+
+.btn-secondary:hover {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dost {
+    margin-top: 5px;
+}
+.leftt{
+    text-align: center;
+}
+.mobile{
+    text-align: center;
+}
+.gmail{
+    text-align: center;
+}
+.login{
+    text-align: center;
+}
+.web{
+    text-align: center;
+}
+.icon{
+    text-align: center;
+}
+#top .icon i {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #555555;
+    color: #383838;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+#top .icon i:hover {
+    background: #e5493a;
+}
+
+.dropdown-toggle::after {
+    display: none;
+
+}
+
+.an {
+    margin-left: 6px;
+    font-size: 13px !important;
+}
+.zero {
+	width: 20px;
+	height: 20px;
+	background: #e5493a;
+	text-align: center;
+	border-radius: 50px;
+	line-height: 17px;
+	position: absolute;
+	top: 34%!important;
+	right: 18%!important;
+}
+/*============================================================
+                     Top Part Css End
+==============================================================*/
+
+/*============================================================
+                     Nav Bar Part Css Start
+==============================================================*/
+#menu {
+    background: #ffffff;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+    font-size: 14px;
+    margin-left: 15px;
+    position: relative;
+    transition: .4s;
+    font-weight: 800;
+}
+
+.navbar-light .nav-link:after {
+    width: 0px;
+    height: 2px;
+    background: #e5493a;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px;
+    opacity: 0;
+    transition: .4s;
+}
+
+.navbar-light .nav-link:hover {
+    color: #e5493a !important;
+}
+
+.navbar-light .nav-link:hover:after {
+    opacity: 1;
+    width: 10px;
+}
+
+.cart {
+    font-size: 14px;
+    margin-top: 22px !important;
+    display: inline-block;
+    margin-left: 8px;
+    position: relative;
+}
+
+.cart i {
+    font-size: 18px;
+}
+
+.zero {
+    width: 20px;
+    height: 20px;
+    background: #e5493a;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 17px;
+    position: absolute;
+    top: 68px;
+    right: 225px;
+}
+
+.zero p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.srch {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.border {
+    width: 100%;
+    height: 8px;
+    display: flex;
+}
+
+.border .left {
+    width: 50%;
+    height: 100%;
+    background: #e5493a;
+}
+
+.border .right {
+    width: 50%;
+    height: 100%;
+    background: #919191;
+    justify-content: center;
+}
+
+/*============================================================
+                     Nav Bar Part Css End
+==============================================================*/
+
+/*============================================================
+                     Banner Part Css Start
+==============================================================*/
+.banner1 {
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.content {
+    padding-top: 340px;
+    padding-bottom: 290px;
+}
+
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 68px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 51px;
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: -10px;
+}
+
+.content p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 27px;
+	color: #fff;
+	font-weight: 400;
+	line-height: 35px;
+	width: 722px;
+	margin: 0 auto;
+    padding-top: 10px;
+}
+
+.butto {
+    background: transparent;
+    padding: 12px 20px;
+    border: 2px solid#fff;
+    margin-left: 10px;
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 14px;
+    color: #ffff !important;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 3px;
+    transition: .4s;
+
+}
+
+.butto:hover {
+    background: #363636;
+    border: 2px solid#363636;
+}
+
+/*============================================================
+                     Banner Part Css End
+==============================================================*/
+
+/*============================================================
+                     Business Part Css Start
+==============================================================*/
+#business {
+    background: #363636;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.text h4 {
+    font-size: 32px;
+    color: #959595;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.text h5 {
+    font-size: 24px;
+    color: #959595;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*============================================================
+                     Business Part Css End
+==============================================================*/
+
+/*============================================================
+                     Brand Part Css Start
+==============================================================*/
+#brand {
+    background: #fafafa;
+    padding-top: 115px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.trivuj {
+    width: 40px;
+    height: 40px;
+    background: #fafafa;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: rotate(45deg);
+}
+
+.paragraph {
+    background: #fff;
+    text-align: center;
+}
+
+.paragraph h2 {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #363636;
+    padding-top: 35px;
+    padding-bottom: 0px;
+    transition: .4s;
+}
+
+.paragraph p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #959595;
+    padding-bottom: 60px !important;
+    padding: 0 12px;
+    position: relative;
+    transition: .4s;
+}
+
+.paragraph i {
+    font-size: 35px;
+    color: #ffff;
+    width: 55px;
+    height: 55px;
+    background: #363636;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: .4s;
+}
+
+.paragraph p:after {
+    width: 70px;
+    height: 2px;
+    background: #363636;
+    content: '';
+    position: absolute;
+    bottom: 38px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.paragraph:hover h2 {
+    color: #e5493a;
+}
+
+.paragraph:hover p {
+    color: #363636;
+}
+
+.paragraph:hover p::after {
+    background: #e5493a;
+}
+
+.paragraph:hover i {
+    background: red;
+}
+
+/*============================================================
+                     Brand Part Css End
+==============================================================*/
+
+
+/*============================================================
+                     Protfolio Part Css Start
+==============================================================*/
+.our h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+    font-weight: 800;
+}
+
+.our p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #959595;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.our p:after {
+    width: 170px;
+    height: 3px;
+    background: #363636;
+    content: '';
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-expand-lg .navbar-nav {
+    background: #fafafa;
+}
+
+.imagess {
+    position: relative;
+}
+
+.imoverlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(80, 80, 79, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+
+.imagess:hover .imoverlay {
+    opacity: 1;
+}
+
+.imoverlay h6 {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.imoverlay p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #656564;
+    position: relative;
+    padding-left: 15px;
+}
+
+.imoverlay p:after {
+    width: 70px;
+    height: 2px;
+    background: #e5493a;
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+}
+
+.imoverlay .icon {
+    width: 100%;
+    margin-top: 50px;
+    text-align: right;
+}
+
+.imoverlay .icon i {
+    font-size: 16px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #252525;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.imoverlay .icon i:hover {
+    background: #e5493a;
+}
+
+.load {
+    background: #363636;
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 50%;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    transform: translateX(-50%);
+}
+
+/*============================================================
+                     Protfolio Part Css End
+==============================================================*/
+
+/*============================================================
+                     Counter Part Css Start
+==============================================================*/
+#counter {
+    background: url(../images/Background.png) no-repeat center;
+    background-size: cover;
+}
+
+.some {
+    color: #fff !important;
+}
+
+.ourr p::after {
+    width: 170px;
+    height: 3px;
+    background: #e5493a;
+    content: '';
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#counter .main {
+    width: 100%;
+    height: 20px;
+    background: red;
+}
+
+/*============================================================
+                     Counter Part Css End
+==============================================================*/
+
+
+/*============================================================
+                     Acordion Part Css Start
+==============================================================*/
+
+#acordion button {
+    background: #f2f2f2;
+}
+
+#acordion button h2 {
+    font-size: 18px;
+    color: #363636;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-left: 35px;
+}
+
+#acordion button h2 i {
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    background: #363636;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 145px;
+    margin-top: 7px;
+}
+
+#acordion button h2 span {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: #cccccc;
+    padding-left: 35px;
+}
+
+#accordionExample .accordion-button:focus {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+#accordionExample .accordion-collapse {
+    margin-left: -40px;
+    border: none;
+}
+
+#accordionExample .accordion-collapse p {
+    width: 588px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #959595;
+    margin-top: 20px;
+}
+
+#accordionExample .accordion-collapse .mas {
+    width: 561px !important;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #959595;
+}
+
+#accordionExample .accordion-button {
+    padding: 0;
+}
+
+#accordionExample .accordion-button:not(.collapsed) h2 {
+    color: #fff !important;
+}
+
+#accordionExample .accordion-button:not(.collapsed) {
+    background: #363636 !important;
+}
+
+#accordionExample .accordion-button::after {
+    display: none;
+}
+
+#accordionExample .accordion-button:not(.collapsed) i {
+    background: red !important;
+    transform: rotate(90deg);
+}
+
+#accordionExample .accordion-item {
+    padding-bottom: 8px;
+    border: none;
+}
+
+.box {
+    background: #f2f2f2;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.box .left {
+    width: 20%;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.box .left .images {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.box .right {
+    width: 80%;
+    height: 120px;
+    padding-top: 35px;
+}
+
+.box .right h2 {
+    color: 363636;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.box .right h2 span {
+    color: #d1d1d1;
+    font-size: 14px;
+    margin-left: 140px;
+}
+
+.box .right p {
+    color: #959595;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 385px;
+    margin-left: 25px;
+}
+
+/*============================================================
+                     Acordion Part Css End
+==============================================================*/
+
+
+/*============================================================
+                     Blog Part Css Start
+==============================================================*/
+#blog {
+    padding-bottom: 120px;
+    position: relative;
+}
+
+#blog .rapper {
+    display: flex;
+    margin-left: 15px;
+}
+
+#blog .left {
+    width: 50%;
+}
+
+#blog .right {
+    width: 49%;
+    margin-left: 20px !important;
+}
+
+.imgesss {
+    position: relative;
+}
+
+.imgesss .overlaym {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+}
+
+.overlaym {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.overlaym .icon {
+    align-self: center;
+}
+
+.overlaym .icon i {
+    font-size: 16px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #252525;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .4s;
+    align-self: center;
+}
+
+.overlaym .icon i:hover {
+    background: #e5493a;
+}
+
+.another {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0% !important;
+}
+
+.another:hover {
+    background: #252525 !important;
+}
+
+.paragaraph .date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.paragaraph h3 a {
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+    line-height: 21px !important;
+    width: 300px;
+    color: #363636;
+    display: inline-block;
+    transition: .4s;
+}
+
+.paragaraph h3 a:hover {
+    color: #e86a60;
+}
+
+.paragaraph p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #cccccc;
+    width: 254px;
+}
+
+.read {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #363636 !important;
+    position: relative;
+    transition: .4s;
+}
+
+.read:after {
+    width: 70px;
+    height: 2px;
+    content: '';
+    background: #363636;
+    position: absolute;
+    bottom: -46px;
+    left: 0;
+    transition: .4s;
+}
+
+.read:hover {
+    color: #e86a60 !important;
+}
+
+.read:hover:after {
+    width: 242px;
+    background: #e86a60;
+}
+
+.imgesss:hover .overlaym {
+    opacity: 1;
+}
+
+.imgesss:hover .overlaym .another {
+    background: #e86a60 !important;
+}
+
+.mar {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+/*============================================================
+                     Blog Part Css End
+==============================================================*/
+
+
+/*============================================================
+                     Theme Part Css Start
+==============================================================*/
+#theme {
+    background: #f3f3f3;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item .left {
+    width: 25%;
+
+}
+
+.item .left .iconn {
+    margin-top: 15px !important;
+    margin-left: 15px;
+}
+
+.item .left i {
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    background: #fafafa;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    border: 4px solid #fafafa;
+    transition: .4s;
+}
+
+.item .right {
+    width: 75%;
+}
+
+.item .right h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #363636;
+    font-weight: 700;
+    padding-top: 20px;
+    transition: .4s;
+}
+
+.item .right p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #b7b7b7;
+    width: 208px;
+    transition: .4s;
+}
+
+.item:hover .right h4 {
+    color: #e5493a;
+}
+
+.item .right:hover p {
+    color: #363636;
+}
+
+.item:hover .left i {
+    border-color: #e5493a;
+    color: #e5493a;
+}
+
+/*============================================================
+                     Theme Part Css End
+==============================================================*/
+
+
+/*============================================================
+                     Clients Part Css Start
+==============================================================*/
+#clients {
+    background: url(../images/lastbackground.png) no-repeat center;
+    background-size: cover;
+}
+
+#clients .container {
+    position: relative;
+}
+
+.all .one {
+    width: 20%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.all .one img {
+    margin: 10px auto;
+}
+
+.all .one .t {
+    margin-top: 25px;
+}
+
+.start {
+    font-size: 10px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, .4);
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    z-index: 11111;
+    transition: .4s;
+}
+
+.start:hover {
+    background: #363636;
+}
+
+.end {
+    font-size: 10px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, .4);
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    z-index: 11111;
+    transition: .4s;
+}
+
+.end:hover {
+    background: #363636;
+}
+
+/*============================================================
+                     Clients Part Css End
+==============================================================*/
+
+
+/*============================================================
+                     Footer Part Css Start
+==============================================================*/
+
+#footer {
+    background: #252525;
+}
+
+.loggo {
+    padding-top: 10px;
+}
+
+.loggo img {
+    display: inline-block;
+}
+
+.loggo p {
+    color: #464646;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 130px;
+    padding-top: 80px;
+}
+
+.lorem {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #636363;
+    padding-top: 40px;
+    width: 262px;
+}
+
+#footer a {
+    font-size: 14px;
+    color: #e5493a;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer h4 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+form {
+    position: relative;
+}
+
+form input {
+    font-size: 14px;
+    color: #464646;
+    font-family: 'Roboto', sans-serif;
+    width: 265px;
+    height: 40px;
+    padding-left: 20px;
+    background: #171717;
+    border: none;
+
+}
+
+input:focus {
+    outline: 0;
+    border: none;
+}
+
+button {
+    position: absolute;
+    right: 50px;
+    top: 8px;
+    background: transparent;
+    border: none;
+}
+
+button i {
+    color: #464646;
+    font-size: 25px !important;
+}
+
+.loreemm {
+    padding-bottom: 80px;
+}
+
+#footer h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 90px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+#footer h3:after {
+    width: 70px;
+    height: 3px;
+    background: #e5493a;
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.newsitem {
+    padding-top: 45px;
+    position: relative;
+}
+
+.newsitem:after {
+    width: 280px;
+    height: 1px;
+    background: #363636;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    content: '';
+}
+
+.newsitem .left {
+    width: 15%;
+    height: 65px;
+    position: relative;
+}
+
+.newsitem .left .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: .4s;
+}
+
+.newsitem .left .overlay .icon {
+    align-self: center;
+}
+
+.newsitem .left .overlay .icon i {
+    font-size: 15px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .5) !important;
+    cursor: pointer;
+}
+
+.newsitem .right {
+    width: 85%;
+    height: 65px;
+}
+
+.newsitem .right h6 {
+    font-size: 14px;
+    color: #959595;
+    width: 210px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+    font-weight: 700;
+    transition: .4s;
+}
+
+.date {
+    color: #636363;
+    padding-left: 25px;
+    padding-top: 0px !important;
+    transition: .4s;
+}
+
+.newsitem:hover .left .overlay {
+    opacity: 1;
+}
+
+.newsitem:hover .right h6 {
+    color: #aa3c32;
+}
+
+.newsitem:hover .right .date {
+    color: #fff;
+}
+
+.off::after {
+    background: transparent;
+}
+
+.third .left i {
+    color: #252525;
+    background: #464646;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+}
+
+.twitteritem {
+    margin-top: 43px;
+    position: relative;
+}
+
+.twitteritem:after {
+    width: 100%;
+    height: 1px;
+    background: #464646;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    content: '';
+}
+
+.twitteritem .icon {
+    width: 10%;
+    height: 70px;
+}
+
+.twitteritem .icon i {
+    color: #3b3b3b;
+    font-size: 13px;
+    background: #000;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+}
+
+.twitteritem .text {
+    width: 90%;
+    height: 70px;
+}
+
+.twitteritem .text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #6a6a6a;
+}
+
+.twitteritem .text p span {
+    color: #fff;
+    font-weight: 600;
+}
+
+.marg {
+    margin-top: -18px;
+}
+
+.iteem::after {
+    width: 100%;
+    height: 1px;
+    background: #464646;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    content: '';
+    display: none;
+}
+
+.forth .icon {
+    width: 20%;
+    height: 60px;
+}
+
+.forth .icon p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #6a6a6a;
+    transition: .4s;
+}
+
+.forth .text {
+    width: 80%;
+    height: 60px;
+    cursor: pointer;
+}
+
+.forth .text p {
+    width: 150px;
+}
+
+.gari {
+    width: 160px !important;
+}
+
+.forth h3 {
+    padding-bottom: 30px !important;
+}
+
+.forth .twitteritem {
+    margin-top: 18px;
+}
+
+.forth h3::after {
+    position: absolute;
+    bottom: -0px !important;
+}
+
+.forth .twitteritem::after {
+    width: 100%;
+    height: 1px;
+    background: #464646;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+}
+
+.forth .text .icon i {
+    border-radius: 5px;
+    margin-left: 4px;
+    background: #464646;
+    color: #252525;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.forth .text .icon {
+    width: 100%;
+}
+
+.forth .text .icon i:hover {
+    background: #e5493a;
+}
+
+.forth .af::after {
+    display: none;
+}
+
+.forth .text:hover p {
+    color: #e5493a;
+}
+
+.copyright p {
+    color: #3b3b3b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.copyright p span {
+    color: #fafafa;
+}
+
+.fotteritem ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.fotteritem ul li a {
+    color: #464646 !important;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .4s;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.fotteritem ul li a:hover {
+    color: #e5493a !important;
+}
+
+#end {
+    background: #111111;
+    padding-top: 25px;
+}
+
+/*============================================================
+                     Footer Part Css End
+==============================================================*/
